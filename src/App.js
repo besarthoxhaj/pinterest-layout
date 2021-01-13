@@ -26,6 +26,7 @@ const DATA = [
 /**
  *
  *
+ *
  */
 export default function App() {
 
@@ -155,7 +156,7 @@ export default function App() {
 
           [
             [400, 200, 500], <-- it's 500 in idx 0
-            [YYY, XXX, YYY], <-- so in idx 2 put ZZZ
+            [YYY, XXX, ZZZ], <-- so in idx 2 put ZZZ
           ]
        */
       if (idx % 3 === 2) {
