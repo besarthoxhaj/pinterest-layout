@@ -1,13 +1,10 @@
 ## Pinterest Layout
 
+Starting with the data X, transform it to set Y.
+Than loop and display.
 
 ```js
-/**
- *
- *
- *
- */
-const rawData = [
+const X = [
   { time: 250, height: 400, id: '01' },
   { time: 240, height: 200, id: '02' },
   { time: 230, height: 450, id: '03' },
@@ -21,50 +18,30 @@ const rawData = [
   { time: 150, height: 600, id: '11' },
 ];
 
-
-/**
- *
- *
- *
- */
-const rowData = [
-  [ {}, {}, {} ],
-  [ {}, {}, {} ],
-  [ {}, {}, {} ],
-  [ {}, {}, {} ],
-  // ...
-];
-
-
-/**
- *
- *
- *
- */
-const data = [
+const Y = [
   [
-    {},
-    {},
-    {},
-    {},
-    {},
+    { id: '01' },
+    { id: '05' },
+    { id: '07' },
+    { id: '10' },
     // ...
   ],
   [
-    {},
-    {},
-    {},
-    {},
-    {},
+    { id: '02' },
+    { id: '04' },
+    { id: '08' },
+    { id: '12' },
     // ...
   ],
   [
-    {},
-    {},
-    {},
-    {},
-    {},
+    { id: '03' },
+    { id: '06' },
+    { id: '09' },
+    { id: '11' },
     // ...
   ]
 ];
 ```
+
+
+![screenshot](/assets/screenshot.png)
